@@ -1,0 +1,54 @@
+.foto{
+    height: 200px;
+    border-radius: 100px;
+}
+
+.foto:hover{
+    transform: scale(1.1);
+}
+
+.presentacion{
+background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 21%, rgba(39,166,219,1) 36%, rgba(104,40,223,1) 60%, rgba(45,129,253,0.8855917366946778) 100%);
+
+}
+
+.sn{
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+}
+
+.sn:hover{
+    background-color: transparent;
+    border: 0;
+    color: black;
+}
+
+.text-amigo{
+    color: black;
+}
+
+.first{
+     background-image: url('https://notariosenred.com/wp-content/uploads/2015/02/eduardo-sebatian-amat.jpg');
+     height: 500px;
+     
+}
+
+.btn-outline-secondary{
+    color: white;
+    border-color: white;
+}
+
+.family:hover{
+    background-color: rgb(104, 255, 255);
+    transform: scale(1.1);
+}
+
+.logo{
+    height: 80px;
+}
+
+.study:hover{
+    transform: scale(1.1);
+}

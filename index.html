@@ -5,13 +5,258 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tarea 12</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Web Personal</title>
 </head>
 
-<h1>Actividad Nº 12</h1>
-
 <body>
+    <header>
 
+
+        <nav class="navbar bg-primary fixed-top">
+            <form class="container-fluid justify-content-center">
+                <a href="#presentacion" class="btn btn-success me-2 sn" type="button">Presentación</a>
+                <a href="#familia" class="btn btn-success me-2 sn" type="button">Familia</a>
+                <a href="#amigos" class="btn btn-success me-2 sn" type="button">Amigos</a>
+                <a href="#estudio" class="btn btn-success me-2 sn" type="button">Estudios</a>
+                <a href="#contacto" class="btn btn-success me-2 sn" type="button">Contacto</a>
+            </form>
+
+        </nav>
+    </header>
+    <main>
+
+        <div class="row presentacion" id="presentacion">
+            <div class="px-4 py-5 my-5 text-center">
+                <img class="d-block mx-auto mb-4 foto"
+                    src="https://www.profesionaldelainformacion.com/notas/wp-content/uploads/2021/02/online.jpg">
+                <h1 class="display-5 fw-bold">Julio Marti Ayala Bellido</h1>
+                <div class="col-lg-6 mx-auto">
+                    <p class="lead mb-4 status2">Soy estudiante de Programación Web en CERTUS, tengo 25 años y soy de la
+                        ciudad de Ayacucho.
+                        Me gusta la computación, programación y temas relacionados al Desarrollo de Software, creación
+                        de Aplicaciones y juegos.
+                    </p>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Descargar CV</button>
+                        <a type="button" class="btn btn-outline-secondary btn-lg px-4" href="#contacto"> Contactame</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container px-4 py-5 " id="familia">
+            <p class="h1" align="center">Mi Familia</p>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100 family">
+                        <img src="https://img.freepik.com/vector-premium/perfil-hombre-dibujos-animados_18591-58483.jpg?w=2000"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Mi Padre</h5>
+                            <p class="card-text">Mi padre se llama Jorge, es un Docente de Educación Secundaria en la
+                                especialidad de Literatura.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 family">
+                        <img src="https://static.vecteezy.com/system/resources/previews/001/912/631/non_2x/beautiful-woman-in-frame-circular-avatar-character-free-vector.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Mi Madre</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 family">
+                        <img src="https://img.freepik.com/vector-premium/dibujos-animados-perfil-mujer_18591-58475.jpg?w=2000"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Mi hermana</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional
+                                content. This card has even longer content than the first to show that equal height
+                                action.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="container-fluid" id="amigos">
+            <p class="h1" align="center">Mis Amigos</p>
+            <div class="container px-4" id="custom-cards">
+                <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                    <div class="col">
+                        <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg first">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-amigo">Jose Perez Monterrico</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                            style="background-image: url('https://st.depositphotos.com/1345889/2318/i/450/depositphotos_23186830-stock-photo-cute-young-student-girl.jpg');">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-amigo">Maria Montes Sanchez
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                            style="background-image: url('https://media.istockphoto.com/photos/hipster-man-holding-smartphone-talking-isolated-picture-id623944046?k=20&m=623944046&s=612x612&w=0&h=zuThrmnQrFhOH8woDqeI663OClyhHs4rpaZL3NInMyk=');">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-amigo">Marco Antonio Gonzales
+                                    Salvatierra</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="estudio">
+
+            <div class="container px-4 py-5" id="icon-grid">
+                <p class="h1" align="center">Mis Estudios</p>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+                    <div class="col d-flex align-items-start">
+
+                        <div class="study">
+                            <img src="https://cdn-icons-png.flaticon.com/512/919/919826.png"
+                                class="rounded float-start logo" alt="...">
+                            <h3 class="fw-bold mb-0 fs-4">CSS</h3>
+                            <p>Paragraph of text beneath the heading to explain the heading.</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+
+                        <div class="study">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpngGRjYX1ca7qAADU3K6eGLj7ShQE3L2otdzfryl_Y9Ht2QRoQKYQbsXd36XIxMbYOw0&usqp=CAU"
+                                class="rounded float-start logo">
+                            <h3 class="fw-bold mb-0 fs-4">HTML</h3>
+                            <p>Paragraph of text beneath the heading to explain the heading.</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+
+                        <div class="study">
+                            <img src="https://i0.wp.com/theicom.org/wp-content/uploads/2016/03/js-logo.png?fit=500%2C500&ssl=1&w=640"
+                                class="rounded float-start logo">
+                            <h3 class="fw-bold mb-0 fs-4">Java Script</h3>
+                            <p>Paragraph of text beneath the heading to explain the heading.</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+
+                        <div class="study">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png"
+                                class="rounded float-start logo">
+                            <h3 class="fw-bold mb-0 fs-4">Angular</h3>
+                            <p>Paragraph of text beneath the heading to explain the heading.</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+
+                        <div class="study">
+                            <img src="https://w7.pngwing.com/pngs/837/18/png-transparent-logo-java-runtime-environment-programming-language-runtime-system-oracle-text-logo-desktop-wallpaper-thumbnail.png"
+                                class="rounded float-start logo">
+                            <h3 class="fw-bold mb-0 fs-4">Java</h3>
+                            <p>Paragraph of text beneath the heading to explain the heading.</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                        <div class="study">
+                            <img src="http://iamonur.com/wp-content/uploads/2022/02/spring.png"
+                                class="rounded float-start logo">
+                            <h3 class="fw-bold mb-0 fs-4">Spring</h3>
+                            <p>Paragraph of text beneath the heading to explain the heading.</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+
+                        <div class="study">
+                            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                                class="rounded float-start logo">
+                            <h3 class="fw-bold mb-0 fs-4">GitHub</h3>
+                            <p>Paragraph of text beneath the heading to explain the heading.</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+
+                        <div class="study">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAkFBMVEVbQoL///9VOn6Zjq9YPoBRNXy7tMlPMXpUOH1yYJKnnblQM3vTz9xZQIFKKnft6/H6+fvHwNOtpL7f2+W3r8WglbPNx9hiS4dNLnnn5Ozs6vBJKHaDcqBqVI308vd4ZZdtWI+KeqSUhqzSzdzc1+TKw9V3ZJaBcJ5mToqLfKSWiK1qVIylmbm5scdCHXKzqcO26VPJAAANYUlEQVR4nO2diXaqOhSGQ0wkSqOgraK2KA51OPb6/m932UGGYPBI8NTg8l933VOVIR+ZdpLNDrKeXejRCfjnehGmmoy8tjnyRpO7Eq67c993HGqOHMf35931fQiDU8dnBJknwvzFKahP2EXURLxYnKKjW49wgyh/NMZVRYybOoSHntl8IO4ftAmDDn108m8S7VyrjVcIp1/40Wm/UXg31SEMkLktTFEE9asTuoum5CAI/yltUksJl+zRqa4ktqxK2LYfneaKstvVCANufjchi6OSBrWE8NCsMgpiJd2imrDfe3R6NeSrM1FN2GpSO5oIt24ndFHTaiGII2WPoSTcNMNaK4oqbXAl4b6JhTQqpso+UUXofjXHXsuLKw0bFeHEeXRaNeWoJm9UhKum2TOJ7NWNhKdmNjRRU3O6kfDYPIMmFjveSPjRWEJVn68ibKRFA1JaNS/CRulF+CI0Xy/CF6H5ehG+CM3Xi/AOhI5/s2yHMkzuO6f37wkdr3+TppPJcLX56bbmqOew+2H+e0L7TXG16wpWg29G71QtjCQUlF6I2T0y0ljCSNMuusPkkMmEUUYeZ7Vnac0mtKxJbdcP0wkt62jXq43mE1rteuuWDSC0vFrT7U0gtLw6fnSNILS6NZaFmkFozfUNnF8nfHtX6Ad8mL3VelLmbdfXX1P4dcJur9SJ2bb9Hv0KuysF50m7nP4+4fXc4BwzHx2Gxdu7C13jxjRCIc7ohaePp5uJRhKCH/OFd+hOMxMNJUSIjAveoSfNxsZYQoQXcgL6M737m0uInIGcgo5eMTWYEDG51xjoFVOTCWlXOvNNzwA3mZAvJHemQK+/MJkQ2VLH7+60RhhGE9If6dS5VlNjNGHBFebz+QjxXjo1fD5Csn32PCRz6dQnrIdyHmr68BpNKHswB3rzUUYTMsmoWT+fTYNsyc9ec/hkNCGWhojfzze2wGH+RN2XkkwmlH3Qq2R+XgYTYrmvGGvO7JtLyKk0AH7XXUc0lpAwaegUaL9XZiohRnIED/23O80kJL2tPJc48jXvbiQhYc5iJN+836TVtXJCzglm1Obfx+KqRaA73w36dcKP/3oq+TZDX/N96/R2GQgh6NRxj/p1QjcokeuWRECYjmv5f5m/Bryx6zkNmU4YLPVb0UYQtlHtV+bMJuz6dm0fTLMJLWsVYvzsXl+TVj1fWvMJI8bPOq1NEwgty6sR/a4ZhFa/05yxhabcsDEjYG19NmWeZjUo0+l0+ml7o2FQYp9+66XgAX5trFTnCJ183hopXNs0x1AGjQ8zEWYrXNusN62FCyMJEbi2OfuLfNSKXGEqYcSIWTEqiVYgJ3MJI0anGFDuR2O+xmRCxO3CjJSr8Uqb0YSI+4VZG43FC7MJEf6UU6ERy8lwQuQUWpvqDoqmExYzsXogINMJuS2H6hpVXsw3nRDRd+n0SeU5DeMJC55fQeWFUuMJyU5OR2W3IeMJuS2no3JjajwhmsnDxcrObeYT9uQhxhMSFvKwst+Q8YScyulYPF1byr/kdHw9HWGxP6w8CDaesGjTVI6VYTohd57dLi24emtMRplO6BSCVVf3ZjecsJiF/eohawwn7BUCOberr8+YTegXoxxreEIbTegU46kPNTyhTSa0L15Z14l8bywhx5dbqEyc55nV58w5XC6whTppMJCQY0r/dBV7NekFvv99Qr98hZRRavtssT9drh1azXmza9Qt1WDw462mZYvc1kHPV6E5ngpeU96Z0dVbY2KbaGrNGxOfRk8r/SCRzSAcaMY1aQrhZF5njxvzCd0ufm7/0p+6MUzNJpx2sY6x3RBCd3ja0jvE2TWTcLo6fY4ZvUtA6F+Idr2y3NsU9CfrUXuwXNi2E9HdKd71b0QsV77KVfJ+l00Zvu9moK+o8y9C8/UifBGarxfhi9B8vQhfhObrRfgiNF8vwheh+bqdsKl7Ot9M2Nh9ufHHjYSa8cIfLzZQ0KgItXdfeLQc70bCYd1IOI+Sr3J7UBHqB717rPhYtXeNitDa1t7j7SEinyoYJeHpDjv1PUC06N5YTljdh9wEcTZRwSgJm1lMC0HPrxO+NbE17anX9tSEutugPFKko0YpIVw3LxP9tRqlhLBGmNQHiV14Gf+FMPjTrHJKvsp2qisjbJrppjTYrhNamyYh+qNSjnJCq13bv+W3dBn75TbCaBTVDESiHDXdQmitSRNaVMxK+okbCC03dExvUokTlnmL30JoWatFzci3/1bELkbLrkxoud7CN3SowZm/aF/PwFsIIw1byHEYJiYJM8dBrdJOsCJhpMmou99+d0zR93bfHSlHg9qEDdaLsPl6ETZfL8Lm64LQnfZjBarYsEOv/eMNFS99BpNR9Mtbbv/pfnKhs6bJ9SZvnjc6bx5/cVA/lwRFCoIJKL/LdZrcMuPmgnBocyE03nXCtnSP0RbZDmz9jraF4cp6P4ZfqI077+c7BWPCJbFQfN/usOhQ2x6HngsBg+WDyJcrBqZCUQqWhUgSLdiQ3sG5b+j5NuOv+fG2GeFhsrQGO6XQ3JZ2/bmdvjJA7E7uObpLOw0eR+j47UxYMGbFxmPuNrkIxw66DCtwJsxSYI+laIrxffzczGhiM3NCmKOajSoh5IkTfe94/n6CxOo+wVgkEePUJnQ7NE4yFsnlM69IyFNCEar7fCQ7JoTZkTEhjVMgvua9XDauHHFwfrNEQXg+mDuKtZkSwjEaEx+Gv9yPM8sdQ1qwM98v5yK8P0FJwRfRt6NhzH65JYLVAfggegg43uwgyopI9PM8DYvH+/0c27gXXbnD4CfxzMRBbHcmjGoJYj4WI4ishi0x4hBbiWRfASEfjxEVExL+5XSGkpBs4c2QifBYoPE5LUg7/RQlvb+Hp5BMUIoZK/xHjLODLrxlHkcpiXeUAb8O6okdZ6JUfWDIAEheMAq36UE/FLZ4jLelsWLCqHq4wVC88ZxNwkC5oF7ERLNBYfSJjwPXDTaQu4qJbzXhObNhR1cmimlf5GAax0mw4zh3oTSSdNPpNiDmdsKDEJ1Omp45iTL0siUWSAPVR7hRdttNdHHfDXF+M0FBKO4+hFvzfDv7d0JwWYjbGlE1cNqyikjN8XLdGqpGbqYE4ubk6olMCMshvAohXD0LXLPH8EG4GaQXyQjFs6YXQ8arhBB9I478E2K5fkPCSZg8BbLIfoH7J7e8IIQLyjuO/o2Q5lbNAiK+h21Ys5KbI4TnV42wHbUA3IGzXQgO5xQaNdHuxezH7JcAykoW9VgmFGWYhsWevJwQnl/qJQO9COxQviW5Be0cIbQ5+KJPVLel4/l8voDWifhx0y96odzJYh9NsXcoPLg8uwttXVYRZUJXxMvHvZZcW1SEUAVcDxrTXlIFIjKxyzwswtvJM8wIRRM8vjBtSnoLQsQrczyM+9Y+hLnv5U8GQjtKpwsrOFKMY+jisilamdBax102pq18PioI+bx12O8ckeXnrwP/7NcFi/Dpmr0gnAb94Qcr9JTXCZPuNowTN4Uve/nD4AvoKkWMDjs/JQsr5LSMMJlk5gzlDD8FIZgF8DS48508WOhTqHjiHcjMjFD0h454drNLw01NyEX0EQylNIQvq+Th/FoeRie0WMzoKyteSpgYblkVX0RcY/EXhIVJAmedbZrYIuoppvfVLc18OpkMVwc424biILpDP1d5gh485bQe5hBEo1RWD4X6rfid9FlqXaoIMaVyvzOJnjLvrDabzWiQa5IzuxTbf4r7D5QTnlsqqNKiJxBlMZ9TsK0030Fd+iSyx5zYUjuLTKYgjAr90pHsDwUhXnqbT5x/VsKfkDsg8ddXjpBgMu4cRsoB1FVCURaFlQCVK9+RwbbScT91ZEjy8xDRgUhJf5hBsLwFUdKWBr0o13bJpYrOE+eeT7Q0/dL9Bm8gjP1wBsIYzo7apfbcmyDKKjh06jmjqoRQ2G/pFrJl/eEpSgs7l1Nhk6VT3ih1l831hxqEYotzAnkovKRomggovvz8EGFgkJmOYvRgZxVeInQzgy0yFP5OKPLtvLwLZYUvtvM5/AdFKjY46hFOFiQt72C6cHbuhN5FGTsXzYHotA7xTUZgsGYlq0AY9A7nfqUvhnnXSqn4uIbWJR6mQUuQ2RzQYMdv/+sRol0Yhp8LMU6lce3r9yDpbPfRbh93ojWfJU2riFqF0fLH63bEBjh+zsSR83CG6Th897yjAExr7w1jCygbOfMXChE+1CBEYlgqxvJJfoxs0fEwSgU4yUpiPPrnmDrxlml+zkotEPbiAGZU9OVZjpQTikEM3OqAk4of3xPqjxga6xImkwr2d2pdjVC2jMgZz7Uek0VuwR87krO1TPhf7rjM7rlCKMbXZBwIGypnOrlQQ+2NHuF/TiJ71snbCMGHbYtJB2bbLXmQN+A+Fb84s1AevrRmjvNfWmq7vOeIyQ062+aOa0cHzTLCH/iYdE1bP/qwH0WpslEOBK7bg2Ie/WuTSoSBl2i0Lp7ork7LMFyeVpdXXL8fwnDf3RQHRmu4Us4YGrY/9uH+oy0NLiZw0FD9MU7PSvwvd8pUfB39Af8Uphz/Qvh0ehE2X/8DkdQp2W8c9vYAAAAASUVORK5CYII="
+                                class="rounded float-start logo">
+                            <h3 class="fw-bold mb-0 fs-4">Bootstrap</h3>
+                            <p>Paragraph of text beneath the heading to explain the heading.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="contacto">
+            <div class="container col-xl-10 col-xxl-8 px-4 ">
+                <div class="row align-items-center g-lg-5 py-5">
+                    <div class="col-lg-7 text-center text-lg-start">
+                        <h1 class="display-4 fw-bold lh-1 mb-3">¿Quieres contactarme?</h1>
+                        <p class="col-lg-10 fs-4">Enviame un mensaje llenando el formulario. Te responderé lo más pronto
+                            posible.</p>
+                    </div>
+                    <div class="col-md-10 mx-auto col-lg-5">
+                        <form class="p-4 p-md-5 border rounded-3 bg-light">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingInput"
+                                    placeholder="name@example.com">
+                                <label for="floatingInput">Nombres:</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput"
+                                    placeholder="name@example.com">
+                                <label for="floatingInput">Correo Electronico</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingPassword" placeholder="Password">
+                                <label for="floatingPassword">Asunto</label>
+                            </div>
+
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" placeholder="Leave a comment here"
+                                    id="floatingTextarea"></textarea>
+                            </div>
+                            <button class="w-100 btn btn-lg btn-primary" type="submit">Enviar Mensaje</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
